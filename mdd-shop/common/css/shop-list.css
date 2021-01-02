@@ -1,0 +1,78 @@
+.pic {
+	width: 315rpx;
+	height: 182rpx;
+}
+
+.box1 {
+	width: 263rpx;
+	white-space: normal;
+	font-size: 22rpx;
+	height: 66rpx;
+	overflow: hidden;
+	margin: 8rpx auto;
+}
+
+.tuan {
+	display: inline-block;
+	width: 82rpx;
+	height: 26rpx;
+	border: 2rpx solid #e52c21;
+	font-size: 20rpx;
+	color: #e52c21;
+	border-radius: 8rpx;
+	text-align: center;
+	line-height: 26rpx;
+}
+
+.box2 {
+	width: 272rpx;
+	height: 48rpx;
+	font-size: 22rpx;
+	line-height: 48rpx;
+	border-bottom-right-radius: 20rpx;
+	border-top-left-radius: 20rpx;
+	background: pink;
+	text-align: center;
+	margin: 2rpx auto;
+	background: linear-gradient(left, #ff8a00, #fd2b1d);
+	color: #fff;
+}
+
+.box3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 272rpx;
+	margin: 20rpx auto;
+}
+
+.box3 text:nth-child(1) {
+	color: #e65047;
+	font-size: 30rpx;
+}
+
+.box3 text:nth-child(2) {
+	font-size: 20rpx;
+	color: #cccccc;
+}
+
+.oneh1 {
+	width: 670rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.con {
+	height: 400rpx;
+	width: 315rpx;
+	box-shadow: 0 10rpx 20rpx #CCCCCC;
+	margin: 20rpx 0;
+	border-radius: 8rpx;
+	
+}
+
+.oneh {
+	background: linear-gradient(top, #fff, #fbfbfb);
+}

@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tarbar/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tarbar/live",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tarbar/community",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tarbar/my",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/group"
+		
+		},
+		{
+			"path": "pages/details"
+		
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+	
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"list":[{
+			"pagePath": "pages/tarbar/index",
+			"iconPath": "static/tarBar/index.png",
+			"selectedIconPath": "static/tarBar/index-cur.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/tarbar/live",
+			"iconPath": "static/tarBar/zhibo.png",
+			"selectedIconPath": "static/tarBar/zhibo-cur.png",
+			"text": "直播"
+		},
+		{
+			"pagePath": "pages/tarbar/community",
+			"iconPath": "static/tarBar/comp.png",
+			"selectedIconPath": "static/tarBar/com-cur.png",
+			"text": "社区"
+		},
+		{
+			"pagePath": "pages/tarbar/my",
+			"iconPath": "static/tarBar/my.png",
+			"selectedIconPath": "static/tarBar/my-cur.png",
+			"text": "个人中心"
+		}
+		],
+		"color":"#cccccc",
+		"selectedColor":"#dd7071",
+		"borderStyle":"white",
+		"backgroundColor":"#fff"
+		
+	}
+}

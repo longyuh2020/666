@@ -1,0 +1,23 @@
+.top {
+	height: 38rpx;
+	line-height: 38rpx;
+	margin: 20rpx 30rpx 0 40rpx;
+	background: #fff;
+}
+
+.top image {
+	height: 38rpx;
+	width: 7rpx;
+	vertical-align: top;
+}
+
+.tex1 {
+	font-size: 35rpx;
+	font-weight: bold;
+	margin: 0 430rpx 0 20rpx;
+}
+
+.many {
+	font-size: 28rpx;
+	color: #cccccc;
+}
